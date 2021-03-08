@@ -28,7 +28,7 @@ function InfoUI(id="id",url="https://placekitten.com/300/300",title="h3title",te
         </h3>
         <p style='
         color:#FFEBE4;
-        width:70%;
+        width
         '>
         ${text}
         </p>

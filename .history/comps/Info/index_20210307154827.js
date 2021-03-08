@@ -28,11 +28,21 @@ function InfoUI(id="id",url="https://placekitten.com/300/300",title="h3title",te
         </h3>
         <p style='
         color:#FFEBE4;
-        width:70%;
         '>
         ${text}
         </p>
-      
+        <button style='
+        width:120px;
+        height:30px;
+        color:#FFAA81;
+        backgrond-color:#FFEBE4;
+        border: 1px solid #FFD4C1;
+        border-radius: 10px;
+        '
+        onclick="clickedButton()"
+        '>
+        Pick other icons
+        </button>
     <div>
   </div>
   `
