@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index.css" rel="stylesheet" type="text/css" >
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap" rel="stylesheet">
+  <title>Midterm comp</title>
+</head>
+<body>
+  <!--please place your code in #main -->
+  <div id="main">
+    <!--Shin Part: Brain-->
+    <!-- DONT TOUCH!! Chisaki part start from here-->
+
+    <!--Card question section-->
+    <div class="container cardquestions">
+      <div class="title"></div>
+    <div class="card"></div>
+    </div>
+    <!--Time to look after your mental health section-->
+    <div class="container mid">
+      <h3 class="midtitle">Time to look after your mental health</h3>
+      <img src="comps/icon/midpic.jpg" alt="mental health" max-width="300px" height="300px" />
+    </div>
+
+    <!--Pick Icons for more info part-->
+    <div class="container iconsection">
+      <div class="title2"></div>
+      <h3 class="subtitle">Pick icons for infomation</h3>
+      <div class="icon" onclick="myFunction()"></div>
+      <div class="hidden" id="panel">
+        <div class="info"></div>
+      </div>
+    </div>
+
+    <!--DONT TOUCH!! Chisaki part ends-->
+
+    <!--next part write from here as long as it is main content. If it is footer, please place the code underneath </div> with <footer>-->
+
+  </div>
+
+  <script src="comps/card/index.js"></script>
+  <script src="comps/Title/index.js"></script>
+  <script src="comps/icon/index.js"></script>
+  <script src="comps/Info/index.js"></script>
+  <script src="index.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("panel").style.display = "block";
+    }
+    document.getElementById("icon1").onclick = function (){
+      document.getElementById("info1").style.display = "block";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon2").onclick = function (){
+      document.getElementById("info2").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon3").onclick = function (){
+      document.getElementById("info3").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon4").onclick = function (){
+      document.getElementById("info4").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon5").onclick = function (){
+      document.getElementById("info5").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon6").onclick = function (){
+      document.getElementById("info6").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+    }
+    </script>
+</body>
+</html>

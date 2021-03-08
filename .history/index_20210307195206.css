@@ -1,0 +1,73 @@
+html,body {
+  margin:0;
+}
+
+#main {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+/* DONTChisaki Part Start from here */
+.container {
+ min-width:100%;
+}
+.cardquestions{
+  background-color:#1BA68F;
+}
+.card {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  margin:30px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+.mid{
+  background-color:#FFFFFF;
+  text-align: center;
+}
+.midtitle {
+ color:#1BA68F;
+ font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+.iconsection {
+  background-color:#FFAA81;
+  
+}
+.title,.title2{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin:30px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  margin:10px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  
+}
+.subtitle {
+  color:#FFEBE4;
+  text-align: center;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+.hidden{
+  display:none;
+}
+.info {
+justify-content: center;
+align-items: center;
+font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/*Chisaki Part End here*/
