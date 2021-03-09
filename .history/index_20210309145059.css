@@ -133,7 +133,7 @@ height: 236px;
 
 .form01{
   position: absolute;
-  left:200px;
+  left:160px;
  
 }
 .form02{
@@ -181,11 +181,6 @@ font-size: 36px;
 line-height: 55px;
 text-align: center;
 color: #1BA68F;
-
-}
-.content > p{
-  margin:0;
-  justify-items: center;
 
 }
 /*Shin part ends here*/

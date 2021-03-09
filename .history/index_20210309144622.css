@@ -4,9 +4,7 @@ html,body {
   width:100vw;
   height:100vh;
 }
-h1,h2,h3,h4,h5,h6{
-  margin:0;
-}
+
 #main {
   width:100vw;
   height:100vh;
@@ -122,7 +120,7 @@ height: 236px;
 
 }
 .arrow{
-  height:80%;
+  height:0%;
   width:90%;
   display: block;
   margin-left: auto;
@@ -133,8 +131,10 @@ height: 236px;
 
 .form01{
   position: absolute;
-  left:200px;
- 
+  width: 895px;
+  height:236px;
+  left: 550px;
+  top: 850px;
 }
 .form02{
 position: absolute;
@@ -181,11 +181,6 @@ font-size: 36px;
 line-height: 55px;
 text-align: center;
 color: #1BA68F;
-
-}
-.content > p{
-  margin:0;
-  justify-items: center;
 
 }
 /*Shin part ends here*/

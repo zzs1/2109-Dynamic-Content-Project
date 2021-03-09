@@ -1,7 +1,7 @@
 function headerpicUI(id="id",url="https://placekitten.com/300/300",text="icon"){
     return`
     <div id='${id}'
-  >
+  onmouseover='HeaderpicUI.HandleClick(this)''>
     <div style="border: 1px solid black;">
     <img style='
     width:300px;
