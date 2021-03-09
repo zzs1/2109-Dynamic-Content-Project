@@ -11,7 +11,7 @@ html,body {
 /* Shin */
 .header {
   display: flex;
-  width: 100%;
+  min-width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -22,20 +22,48 @@ html,body {
 }
 .caption {
   background-color: #3EB7B2;
-  width:100%;
+  width: 1598px;
   height: 740px;
-  display: flex;
+  left: -1px;
+  top: 0px;
 
 }
 
 .sub1 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
   text-align: center;
   color: #1BA68F;
   font-family:'Saira Semi Condensed', sans-serif;
+  font-size: 60px;
+  line-height: 100px;
 }
+
+.sub2 {
+  text-align: center;
+  color: yellow;
+}
+
+.headertitle_back{
+  width:70%;
+  height:130px;
+  margin-top:5px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border:3px solid #6ED1BF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .headertitle_back > .headertitle{
+    margin:0;
+  }
+
 .sub1_back{
 width:70%;
-height:30px;
+height:130px;
 margin-top:5px;
 background-color: #FFFFFF;
 border-radius: 5px;
@@ -47,15 +75,20 @@ margin-right: auto;
 .sub1_back > h3{
   margin:0;
 }
-.sub2 {
-  text-align: center;
-  color: yellow;
-}
-
 .headertitle{
-  font-family:'Saira Semi Condensed', sans-serif;
+  position: absolute;
+  width: 900px;
+  height: 179px;
+  left: 250px;
+  top: 450px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 50px;
+  font-family: 'Sniglet', cursive;
   color: #1BA68F;
   text-align: center;
+  z-index: 0;
 }
 .cap{
   background-color: #6ED1BF;
@@ -65,7 +98,8 @@ margin-right: auto;
   text-align: center;
   font-family: 'Solway', serif;
   color: yellow;
-  font-size: 60px;
+  font-size: 120px;
+  line-height: 144px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -73,44 +107,90 @@ margin-right: auto;
 font-family:'Saira Semi Condensed', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
+font-size: 60px;
 line-height: 94px;
 color: #FFFFFF;
 }
 .center{
   background-image: url("comps/content/background.png");
   display: inline;
- 
 }
-.header_back{
 
-  width:80%;
-  height:100px;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  flex-grow: 3;
-}
-.header_back > h1 {
-  margin:0;
-}
-.headertitle{
 
-}
+
+
 .headimg{
-width: 150px;
-height: 150px;
-flex-grow: 1;
+width: 300px;
+height: 300px;
+left: 100px;
+top: 400px;
+
 }
 .sideimg{
-width: 150px;
-height: 150px;
-flex-grow: 1;
+right: 10px;
+top: 400px;
+width: 500px;
+height: 236px;
+
 }
 .arrow{
   z-index: -1;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+
+.form01{
+  position: absolute;
+  width: 895px;
+  height:236px;
+  left: 550px;
+  top: 850px;
+}
+.form02{
+position: absolute;
+width: 847px;
+height: 117px;
+left: 78px;
+top: 1200px;
+}
+.form03{
+  position: absolute;
+width: 659px;
+height: 114px;
+left: 691.86px;
+top: 1600px;
+}
+.form04{
+position: absolute;
+width: 602px;
+height: 105px;
+left: 78px;
+top: 2000px;
+}
+.form05{
+  position: absolute;
+width: 436px;
+height: 92px;
+left: 766px;
+top: 2350px;
+}
+.form06{
+position: absolute;
+width: 903px;
+height: 116px;
+left: 88px;
+top: 2800px;
+
+}
+.form01,.form02,.form03,.form04,.form05,.form06{
+
+font-family: 'Saira SemiCondensed', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 55px;
+text-align: center;
+text-decoration-line: underline;
+color: #1BA68F;
 
 }
 
@@ -174,3 +254,5 @@ justify-content: center;
 align-items: center;
 font-family: 'Saira Semi Condensed', sans-serif;
 }
+
+/* DONT TOUCH !!Chisaki Part End here*/

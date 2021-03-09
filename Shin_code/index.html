@@ -15,42 +15,134 @@
     <!--Shin Part: Brain-->
     <div class="header image">
       <div class="headerpic"></div>
-    </div>
+      </div>
 
     <!--Shin Part: Header: Have you take good care of you mental health? -->
     <div class="header caption">
-      <img class="headimg" src="comps/caption/headimage.png" alt="firstimg">
-      <div class="header_back">
-        <h1 class="headertitle">Have you take good care of
-          you mental health?
-        </h1>
+      <img class="headimg" src="comps/caption/headimage.png" alt="image#1">
+      <div class="headertitle_back">
+      <div class="headertitle">Have you take good care of
+        you mental health?</div>
       </div>
-        <img class="sideimg" src="comps/caption/sideimage.png" alt="secondimg"> 
+        <img class="sideimg" src="comps/caption/sideimage.png" alt="image#2"> 
     </div>
 
     <!--Shin Part: content1: Common symptoms of mental illness -->
    <div class="content center">
      <div class="sub1_back">
      <h3 class="content sub1">Common symptoms of mental illness</h3>
-    </div>
-     <img class="arrow" src="comps/content/Group 13.png" alt="arrowkey" width="90%">
-     <div class="content form"></div>
+     </div>
+     <div class="content form01"><img class='img1'src="reference pictures_/image06.png">Changes in behaviour
+      or feelings
+     </div>
+     <div class="content form02"><img  class='img2' src="reference pictures_/image05.png">Feeling depressed/unhappy </div>
+     <div class="content form03"><img  class='img3' src="reference pictures_/image04.png">Emotional outbursts</div>
+     <img class="arrow" src="comps/content/Group 13.png" alt="arrowkey">
+     <div class="content form04"><img  class='img4'src="reference pictures_/image03.png">Quiet or withdrawn</div>
+     <div class="content form05"><img  class='img5'src="reference pictures_/image02.png">Sleeping problems</div>
+     <div class="content form06"><img  class='img6'src="reference pictures_/image01.png">Feeling guilty or worthless</div>
    </div>
 
     <!--Shin: Dont be afraid part-->
     <div class="foot cap">
       <div class="footline">Don't be afraid!</div>
-      <div class="footpara">
-        THE ABOVE SITUATION ARE THE SIGNS OF 
-        HAVING MENTAL HEALTH ISSUE AND IT IS <span style="color: yellow;">NORMAL</span> TO HAVE MENTAL DISORDER
+      <div class="footpara">THE ABOVE SITUATION ARE THE SIGNS OF 
+        HAVING MENTAL HEALTH ISSUE AND IT IS <span style="color: yellow;">NORMAL</span> TO HAVE MENTAL DISORDER</div>
+    </div>
+
+    <!--Joyce: Facts about mental disorders  -->
+
+
+    <!-- DONT TOUCH!! Chisaki part start from here-->
+
+    <!--Card question section-->
+    <div class="container cardquestions">
+      <div class="title"></div>
+    <div class="card"></div>
+    </div>
+    <!--Time to look after your mental health section-->
+    <div class="container mid">
+      <h3 class="midtitle">Time to look after your mental health</h3>
+      <img src="comps/icon/midpic.jpg" alt="mental health" max-width="300px" height="300px" />
+    </div>
+
+    <!--Pick Icons for more info part-->
+    <div class="container iconsection">
+      <div class="title2"></div>
+      <h3 class="subtitle">Pick icons for infomation</h3>
+      <div class="icon" onclick="myFunction()"></div>
+      <div class="hidden" id="panel">
+        <div class="info"></div>
       </div>
     </div>
 
+    <!--DONT TOUCH!! Chisaki part ends-->
+
+    <!--For Joyce, next part write from here as long as it is main content. If it is footer, please place the code underneath </div> with <footer>-->
 
   </div>
-
-  <!--Shin scripts start from here-->
   <script src="comps/caption/index.js"></script>
    <script src="comps/headerpic/index.js"></script>
+  <!--DONT TOUCH !! Chisaki scripts start from here-->
+  <script src="comps/card/index.js"></script>
+  <script src="comps/Title/index.js"></script>
+  <script src="comps/icon/index.js"></script>
+  <script src="comps/Info/index.js"></script>
+  <script src="index.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("panel").style.display = "block";
+    }
+    document.getElementById("icon1").onclick = function (){
+      document.getElementById("info1").style.display = "block";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon2").onclick = function (){
+      document.getElementById("info2").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon3").onclick = function (){
+      document.getElementById("info3").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon4").onclick = function (){
+      document.getElementById("info4").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon5").onclick = function (){
+      document.getElementById("info5").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info6").style.display = "none";
+    }
+    document.getElementById("icon6").onclick = function (){
+      document.getElementById("info6").style.display = "block";
+      document.getElementById("info1").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+      document.getElementById("info3").style.display = "none";
+      document.getElementById("info4").style.display = "none";
+      document.getElementById("info5").style.display = "none";
+    }
+    </script>
+    <!--DONT TOUCH !! Chisaki scripts ends here-->
+    
 </body>
 </html>
