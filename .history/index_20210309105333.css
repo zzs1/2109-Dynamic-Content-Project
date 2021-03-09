@@ -92,9 +92,7 @@ opacity: .8;
 }
 
 .pic > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width:80%;
 }
 
 .keyword{

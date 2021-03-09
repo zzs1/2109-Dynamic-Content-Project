@@ -27,7 +27,7 @@ html,body {
   max-height:30%;
   max-width: 80%;
   border-radius: 10px;
-  text-align: center;
+  tex
   margin:0;
 }
 #heading:hover{
@@ -91,18 +91,11 @@ opacity: .8;
     
 }
 
-.pic > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .keyword{
   color:#1BA68F;
   font-size: 36px;
 }
 #box8 {
-  width:80%;
   justify-content: center;
   align-items: center;
   flex-direction: column;

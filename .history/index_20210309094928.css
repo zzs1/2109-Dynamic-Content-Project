@@ -1,6 +1,5 @@
 html,body {
   margin:0;
-  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 #main {
@@ -8,17 +7,9 @@ html,body {
   height:100vh;
   display:flex;
   flex-direction: column;
- 
 }
 /*Joyce part starts from here*/
-.joyce_main{
-  width:100vw;
-  display:flex;
-  flex-direction:column;
-  align-self: start;
-  align-items:center;
-  margin:50px 0;
-}
+
 #heading{
   margin-top: 50px;
   font-size: 50px;
@@ -26,12 +17,11 @@ html,body {
   border:4px solid  orange;
   max-height:30%;
   max-width: 80%;
+  padding:15px 30px;
   border-radius: 10px;
-  text-align: center;
-  margin:0;
 }
 #heading:hover{
-animation: skew 2s infinite;
+  animation: skew 2s infinite;
 transform: skew(12deg);
 animation-direction: alternate;
 opacity: .8;
@@ -47,7 +37,6 @@ opacity: .8;
 }
 
 .ps_container {
-  width:100%;
   display:flex;
   flex-direction:column;
   justify-items: center;
@@ -57,7 +46,7 @@ opacity: .8;
 }
 .boxes{
   
-  
+  max-height:320px;
   max-width: 80%;
   flex-grow: 1;
   display:flex;
@@ -69,7 +58,7 @@ opacity: .8;
 
 
 .text{
-  
+  padding-top:8%;
   display: inline;
   max-width: 40%;
   color:#6ED1BF;
@@ -81,7 +70,6 @@ opacity: .8;
 }
 
 .pic{
-  justify-items: center;
   width: 50%; 
   transition: transform .2s; /* Animation */
    }
@@ -91,33 +79,21 @@ opacity: .8;
     
 }
 
-.pic > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .keyword{
   color:#1BA68F;
   font-size: 36px;
 }
 #box8 {
-  width:80%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#box8 > .pic{
+#box8 > .pic {
   width:80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
 }
 
 /*Joyce part ends here*/
-
 
 /* DONT TOUCH !! Chisaki Part Start from here */
 .container {

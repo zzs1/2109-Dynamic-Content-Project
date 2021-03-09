@@ -91,12 +91,6 @@ opacity: .8;
     
 }
 
-.pic > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .keyword{
   color:#1BA68F;
   font-size: 36px;
