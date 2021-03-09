@@ -18,10 +18,4 @@ document.querySelector(".info").innerHTML += InfoUI("info5",'comps/icon/pic5.svg
 document.querySelector(".info").innerHTML += InfoUI("info6",'comps/icon/pic6.svg', "Set realistic goals and expectations", "By setting realistic goals and achieving small goals step by step, you can get more and more confident on yourself. For example, if you are trying to go on diet, you can start by walking 1 or 2 bus stops distance once or twice a week. When you making a plan, it is a good idea to consider your plan for the long run.");
 // DONT TOUCH !!Chisaki JS End here
 
-//Shin JS Starts from here
-document.querySelector(".headerpic").innerHTML += headerpicUI("headerpic1",'Shin_code/comps/headerpic/header.png',"HAVING THESE PROBLEM? Then it is time for you to look into the topic of");
-document.querySelector(".headertitle").innerHTML += slidingUI("#FFFFFF","Have you taking good care of your mental health?","#1BA68F");
-
-//document.querySelector(".headercaption").innerHTML += captionUI("Have you taking good care of your mental health?");
-
-//Shin JS ends here
+//Shin Script 

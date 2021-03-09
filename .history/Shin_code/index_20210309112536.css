@@ -29,9 +29,12 @@ html,body {
 }
 
 .sub1 {
+
   text-align: center;
   color: #1BA68F;
   font-family:'Saira Semi Condensed', sans-serif;
+  
+  
 }
 
 .sub2 {
@@ -70,8 +73,10 @@ margin-right: auto;
 }
 .headertitle{
   font-family: 'Sniglet', cursive;
-
- 
+  color: #1BA68F;
+  text-align: center;
+  justify-items: center;
+  z-index: 0;
 }
 .cap{
   background-color: #6ED1BF;

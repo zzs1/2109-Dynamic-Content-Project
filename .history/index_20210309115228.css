@@ -1,5 +1,6 @@
 html,body {
   margin:0;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 #main {
@@ -7,8 +8,9 @@ html,body {
   height:100vh;
   display:flex;
   flex-direction: column;
+ 
 }
-/* Shin */
+/*Shin part starts from here*/
 .header {
   display: flex;
   min-width: 100%;
@@ -50,6 +52,7 @@ html,body {
   margin-left: auto;
   margin-right: auto;
   }
+  
   .headertitle_back > .headertitle{
     margin:0;
   }
@@ -177,6 +180,116 @@ text-decoration-line: underline;
 color: #1BA68F;
 
 }
+/*Shin part ends here*/
+
+/*Joyce part starts from here*/
+.joyce_main{
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  align-self: start;
+  align-items:center;
+  margin:50px 0;
+}
+#heading{
+  margin-top: 50px;
+  font-size: 50px;
+  color:#1BA68F;
+  border:4px solid  orange;
+  max-height:30%;
+  max-width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  margin:0;
+}
+#heading:hover{
+animation: skew 2s infinite;
+transform: skew(12deg);
+animation-direction: alternate;
+opacity: .8;
+}
+
+@keyframes skew {
+0% {
+  transform: skew(20deg, 20deg);
+}
+100% {
+  transform: skew(-20deg, -20deg);
+}
+}
+
+.ps_container {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-items: center;
+  align-items: center;
+  
+ 
+}
+.boxes{
+  
+  
+  max-width: 80%;
+  flex-grow: 1;
+  display:flex;
+  flex-direction:row;
+  text-align: center;
+  margin:30px 0;
+}
+
+
+
+.text{
+  
+  display: inline;
+  max-width: 40%;
+  color:#6ED1BF;
+  font-size: 34px;
+}
+
+.text:hover{
+  text-shadow: 2px 2px 10px #CBC2C2;
+}
+
+.pic{
+  justify-items: center;
+  width: 50%; 
+  transition: transform .2s; /* Animation */
+   }
+    
+.pic:hover {
+      transform: scale(1.2); 
+    
+}
+
+.pic > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keyword{
+  color:#1BA68F;
+  font-size: 36px;
+}
+#box8 {
+  width:80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box8 > .pic{
+  width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+/*Joyce part ends here*/
+
 
 /* DONT TOUCH !! Chisaki Part Start from here */
 .container {
@@ -240,3 +353,36 @@ font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 /* DONT TOUCH !!Chisaki Part End here*/
+
+/*Joyce CSS buttom part styling starts from here*/
+#bottom{
+  margin:0;
+  background-color:#3EB7B2;
+  color:white;
+  display:flex;
+  justify-content: center;
+}
+#right{
+  margin-top: 16%;
+  display:flex;
+  flex-direction: column;
+  max-width: 40%;
+  justify-content: flex-start;
+}
+#showcase{
+  margin-top: 10%;
+  max-width: 40%;
+  justify-content: flex-end;
+}
+
+#logo{
+  margin-left: 16%;
+}
+#content{
+  font-size: 20px;
+  margin-bottom: 10%;
+  max-width: 80%;
+}
+#logo img{
+  margin-bottom: 5%;
+}

@@ -70,8 +70,10 @@ margin-right: auto;
 }
 .headertitle{
   font-family: 'Sniglet', cursive;
-
- 
+  color: #1BA68F;
+  text-align: center;
+  justify-items: center;
+  z-index: 0;
 }
 .cap{
   background-color: #6ED1BF;

@@ -3,6 +3,7 @@ function slidingUI(bgcolor="#FFFFFF", bodercolor="#FFD4C1", font="#FFAA81",text=
     <h3 style='
     color:${font};
     text-align:center;
+    font-family: 'Sniglet', cursive;
     '>${text}
     </h3>
     
