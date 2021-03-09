@@ -58,8 +58,7 @@ html, body{
     font-size: 40px;
 }
 #box8 {
-    justify-content: center;
-    align-items: center;
+    jus
     flex-direction: column;
 }
 

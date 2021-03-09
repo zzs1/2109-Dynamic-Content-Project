@@ -49,17 +49,12 @@ html, body{
     
 }
 
-.pic{
+.picture{
     width: 50%;
 }
 
 .keyword{
     color:#1BA68F;
     font-size: 40px;
-}
-#box8 {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 

@@ -29,17 +29,12 @@ html, body{
     flex-direction:column;
     justify-items: center;
     align-items: center;
-    
-   
 }
 .boxes{
-    min-height:150px;
+    height:100px;
     max-width: 80%;
     flex-grow: 1;
-    display:flex;
-    flex-direction:row;
-    text-align: center;
-    margin:20px 0;
+    flex-direction:column;
 }
 .text{
     display: inline;
@@ -49,17 +44,12 @@ html, body{
     
 }
 
-.pic{
+.picture{
     width: 50%;
 }
 
 .keyword{
     color:#1BA68F;
     font-size: 40px;
-}
-#box8 {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
