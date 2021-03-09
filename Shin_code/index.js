@@ -1,0 +1,3 @@
+document.querySelector(".headerpic").innerHTML += headerpicUI("headerpic1",'comps/headerpic/header.png',"HAVING THESE PROBLEM? Then it is time for you to look into the topic of");
+document.querySelector(".headertitle").innerHTML += slidingUI("#FFFFFF","Have you taking good care of your mental health?","#1BA68F");
+document.querySelector(".headercaption").innerHTML += captionUI("Have you taking good care of your mental health?");
