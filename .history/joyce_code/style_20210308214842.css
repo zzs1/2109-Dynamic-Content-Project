@@ -62,7 +62,3 @@ html, body{
     align-items: center;
     flex-direction: column;
 }
-
-#box8 > .pic {
-    width:80%;
-}
