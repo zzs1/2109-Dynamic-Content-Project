@@ -88,7 +88,6 @@ color: #FFFFFF;
   height:100px;
   background-color: #FFFFFF;
   border-radius: 10px;
-  flex-grow: 3;
 }
 .header_back > h1 {
   margin:0;
@@ -99,12 +98,15 @@ color: #FFFFFF;
 .headimg{
 width: 150px;
 height: 150px;
-flex-grow: 1;
+left: -11px;
+top: 400px;
+
 }
 .sideimg{
+right: -11px;
+top: 400px;
 width: 150px;
 height: 150px;
-flex-grow: 1;
 }
 .arrow{
   z-index: -1;
